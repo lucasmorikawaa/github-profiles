@@ -24,7 +24,7 @@
                     <input type="text" class="form-control" id="inputUser" placeholder="User Github">
                 </div>
             </div>
-            <button class="btn btn-primary mt-4">Pesquisar</button>
+            <button type="button" class="btn btn-primary mt-4" onclick="search()">Pesquisar</button>
           </form>
         </section>
 
@@ -41,7 +41,10 @@
           <div id="company">
 
           </div>
-          <img src="" alt="" id="avatar_url" width="250" height="250" class="shadow rounded">
+          <div id="avatar_url">
+
+          </div>
+          
         </section>
         <section class="mt-5">
           <div class="display-6">
@@ -61,5 +64,9 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>
